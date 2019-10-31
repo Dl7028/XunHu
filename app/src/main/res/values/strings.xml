@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">XunDictionary</string>
+    <string name="history">历史记录</string>
+    <string name="clear_history">清空历史记录</string>
+    <string name="English_chinese">英汉</string>
+
+</resources>

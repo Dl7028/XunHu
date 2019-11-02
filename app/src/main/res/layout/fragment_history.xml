@@ -10,7 +10,7 @@
     >
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/serach_card"
+        android:id="@+id/search_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/history_list"
@@ -31,7 +31,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <SearchView
-                android:id="@+id/words_searchView"
+                android:id="@+id/historys_searchView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -90,7 +90,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/serach_card" />
+        app:layout_constraintTop_toBottomOf="@+id/search_card" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
